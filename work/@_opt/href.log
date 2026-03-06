@@ -1,0 +1,4 @@
+BEGIN 1:TrafficLightFSM:fast:work
+    timer :  1:TrafficLightFSM_tb:fast:work
+    current_state_t :  1:TrafficLightFSM_tb:fast:work
+END 

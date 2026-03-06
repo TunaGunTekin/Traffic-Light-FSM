@@ -1,0 +1,15 @@
+`timescale 1ps/1ps
+
+module TrafficLightFSM(
+    input logic clk,
+    input logic reset,
+    input logic TAORB,
+
+    output reg [1:0] LightA,
+    output reg [1:0] LightB,
+);
+
+typedef enum bit[1:0] {
+    S0 = 2'b00, // LA is Green, LB is Red 
+
+} state_t;
