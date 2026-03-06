@@ -90,12 +90,19 @@ Reading pref.tcl
  TAORB Change for one clock at the Middle of Timer
  
  Time: 312 ps | Reset: 0 | TAORB: 1 | State: 2 | Timer: 0 | Light A: RED    | Light B: GREEN 
+ 
  Time: 315 ps | Reset: 0 | TAORB: 1 | State: 3 | Timer: 0 | Light A: RED    | Light B: YELLOW
+ 
  Time: 322 ps | Reset: 0 | TAORB: 0 | State: 3 | Timer: 0 | Light A: RED    | Light B: YELLOW
+ 
  Time: 325 ps | Reset: 0 | TAORB: 0 | State: 3 | Timer: 1 | Light A: RED    | Light B: YELLOW
+ 
  Time: 335 ps | Reset: 0 | TAORB: 0 | State: 3 | Timer: 2 | Light A: RED    | Light B: YELLOW
+ 
  Time: 345 ps | Reset: 0 | TAORB: 0 | State: 3 | Timer: 3 | Light A: RED    | Light B: YELLOW
+ 
  Time: 355 ps | Reset: 0 | TAORB: 0 | State: 3 | Timer: 4 | Light A: RED    | Light B: YELLOW
+ 
  Time: 365 ps | Reset: 0 | TAORB: 0 | State: 0 | Timer: 0 | Light A: GREEN  | Light B: RED   
  Time: 375 ps | Reset: 0 | TAORB: 0 | State: 1 | Timer: 0 | Light A: YELLOW | Light B: RED   
  Time: 385 ps | Reset: 0 | TAORB: 0 | State: 1 | Timer: 1 | Light A: YELLOW | Light B: RED   
