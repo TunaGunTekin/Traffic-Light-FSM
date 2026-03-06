@@ -94,3 +94,5 @@ run -all
 # 1
 # Break in Module TrafficLightFSM_tb at TrafficLightFSM_tb.sv line 84
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/tuna/Documents/ELE432FPGA/Homework1/Traffic-Light-FSM/wave.do
+# End time: 15:20:21 on Mar 06,2026, Elapsed time: 0:09:48
+# Errors: 0, Warnings: 0
