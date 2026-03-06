@@ -49,7 +49,7 @@ R2
 vTrafficLightFSM
 Z4 2TrafficLightFSM.sv|TrafficLightFSM_tb.sv
 Z5 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z6 !s110 1772798165
+Z6 !s110 1772799030
 !i10b 1
 !s100 HMbPlMD1[O4QJ@[Ve^=DC2
 I^=G[7^8Mc?SR3b9LTCRA[1
@@ -58,14 +58,14 @@ Z7 d/home/tuna/Documents/ELE432FPGA/Homework1/Traffic-Light-FSM
 w1772795763
 8TrafficLightFSM.sv
 FTrafficLightFSM.sv
-!i122 30
+!i122 31
 L0 3 86
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z10 !s108 1772798165.000000
+Z10 !s108 1772799030.000000
 !s107 TrafficLightFSM_tb.sv|TrafficLightFSM.sv|
 Z11 !s90 TrafficLightFSM.sv|TrafficLightFSM_tb.sv|
 !i113 0
@@ -81,10 +81,10 @@ R6
 I@RTHmma]CTEThl?XAJ1Ib1
 S1
 R7
-w1772797787
+w1772798715
 8TrafficLightFSM_tb.sv
 FTrafficLightFSM_tb.sv
-!i122 30
+!i122 31
 L0 3 85
 R8
 R9

@@ -14,12 +14,20 @@
 # //
 # ** Note: (vsim-220) '/opt/Intel/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
 # vsim -voptargs="+acc" work.TrafficLightFSM_tb 
-# Start time: 14:56:08 on Mar 06,2026
+# Start time: 15:10:33 on Mar 06,2026
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading sv_std.std
 # Loading work.TrafficLightFSM_tb(fast)
 # Loading work.TrafficLightFSM(fast)
-add wave -position insertpoint sim:/TrafficLightFSM_tb/dut/*
+add wave -position end  sim:/TrafficLightFSM_tb/dut/clk
+add wave -position end  sim:/TrafficLightFSM_tb/dut/reset
+add wave -position end  sim:/TrafficLightFSM_tb/dut/TAORB
+add wave -position end  sim:/TrafficLightFSM_tb/dut/LightA
+add wave -position end  sim:/TrafficLightFSM_tb/dut/LightB
+add wave -position end  sim:/TrafficLightFSM_tb/dut/timer
+add wave -position end  sim:/TrafficLightFSM_tb/dut/next_timer
+add wave -position end  sim:/TrafficLightFSM_tb/dut/current_state_t
+add wave -position end  sim:/TrafficLightFSM_tb/dut/next_state_t
 run -all
 # 
 # Standart Flow FOr Traffic(S0 -> S1 -> S2 -> S3 -> S0)
@@ -85,4 +93,4 @@ run -all
 #    Time: 402 ps  Iteration: 0  Instance: /TrafficLightFSM_tb
 # 1
 # Break in Module TrafficLightFSM_tb at TrafficLightFSM_tb.sv line 84
-# Causality operation skipped due to absence of debug database file
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/tuna/Documents/ELE432FPGA/Homework1/Traffic-Light-FSM/wave.do
